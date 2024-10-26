@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "titre": "Le Petit Prince",
+    "auteur": "Antoine de Saint-Exupéry"
+  },
+  {
+    "id": 2,
+    "titre": "Les Misérables",
+    "auteur": "Victor Hugo"
+  },
+  {
+    "id": 3,
+    "titre": "Machin truc",
+    "auteur": "Machin machin"
+  },
+  {
+    "id": 4,
+    "titre": "fghjk",
+    "auteur": "ghjklkml"
+  }
+]

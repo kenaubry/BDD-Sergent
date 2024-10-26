@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Gestion des Livres</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Bibliothèque</h1>
+    <form id="book-form">
+      <input type="hidden" id="book-id">
+      <div>
+        <label for="title">Titre :</label>
+        <input type="text" id="title" required>
+      </div>
+      <div>
+        <label for="author">Auteur :</label>
+        <input type="text" id="author" required>
+      </div>
+      <button type="submit">Enregistrer</button>
+    </form>
+    <h2>Liste des Livres</h2>
+    <ul id="book-list"></ul>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

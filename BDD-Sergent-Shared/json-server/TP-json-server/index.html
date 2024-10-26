@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Gestion de Notes</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Gestion de Notes</h1>
+    <form id="note-form">
+      <input type="hidden" id="note-id">
+      <div>
+        <label for="title">Titre :</label>
+        <input type="text" id="title" required>
+      </div>
+      <div>
+        <label for="content">Contenu :</label>
+        <textarea id="content" required></textarea>
+      </div>
+      <button type="submit">Enregistrer</button>
+    </form>
+    <h2>Liste des Notes</h2>
+    <ul id="notes-list"></ul>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
